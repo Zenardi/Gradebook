@@ -1,0 +1,60 @@
+.gradebook-portlet {
+	
+	h1 {
+		font-size: 1.7rem;
+		margin: 20px 0 10px 0;
+	}
+
+	h2 {
+		margin: 30px 0 10px 0;
+	}
+	
+	.lfr-search-container-wrapper {
+		a {
+			text-decoration: underline;
+		}
+		
+		.user-icon {
+			float: left;
+		}
+		
+		.user-details {
+			vertical-align: sub;
+			
+			.user-name {
+				color: inherit;
+			}
+		}
+	}
+	
+	.submission-text {
+		border: 1px solid #eee;
+		border-radius: 5px;		
+		padding: 20px;
+	}
+	
+	.assignment-metadata,
+	.submission-metadata {
+		font-size: .9em;
+	
+		dt {
+			margin-top: 15px;
+		}
+		
+		dd {
+		
+		}				
+	}
+	
+	.edit-assignment {
+	
+		.assignment-description {
+		    font-size: .875rem;
+    		font-weight: 600;
+    		
+    		.reference-mark {
+    			font-size: 6px;
+    		}
+		}	
+	}
+}

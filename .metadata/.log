@@ -1,0 +1,84 @@
+!SESSION 2018-10-23 13:29:49.406 -----------------------------------------------
+eclipse.buildId=3.3.1.201809120710-ga2
+java.version=1.8.0_171
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product com.liferay.ide.studio.ui.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product com.liferay.ide.studio.ui.product
+
+!ENTRY org.eclipse.core.net 1 0 2018-10-23 13:31:15.401
+!MESSAGE System property http.proxyHost is not set but should be rb-proxy-ca.bosch.com.
+
+!ENTRY org.eclipse.core.net 1 0 2018-10-23 13:31:15.408
+!MESSAGE System property http.proxyPort is not set but should be 8080.
+
+!ENTRY org.eclipse.core.net 1 0 2018-10-23 13:31:15.415
+!MESSAGE System property https.proxyHost is not set but should be rb-proxy-ca.bosch.com.
+
+!ENTRY org.eclipse.core.net 1 0 2018-10-23 13:31:15.419
+!MESSAGE System property https.proxyPort is not set but should be 8080.
+
+!ENTRY org.eclipse.core.net 1 0 2018-10-23 13:31:15.430
+!MESSAGE System property https.proxyHost is not set but should be rb-proxy-ca.bosch.com.
+
+!ENTRY org.eclipse.core.net 1 0 2018-10-23 13:31:15.437
+!MESSAGE System property https.proxyPort is not set but should be 8080.
+
+!ENTRY org.eclipse.ui 4 4 2018-10-23 13:31:27.606
+!MESSAGE Referenced part does not exist yet: fast.
+
+!ENTRY org.apache.ivyde.eclipse 1 0 2018-10-23 13:37:06.505
+!MESSAGE starting IvyDE plugin
+
+!ENTRY org.apache.ivyde.eclipse 1 0 2018-10-23 13:37:06.546
+!MESSAGE IvyDE plugin started
+!SESSION 2018-10-23 14:27:46.188 -----------------------------------------------
+eclipse.buildId=3.3.1.201809120710-ga2
+java.version=1.8.0_171
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product com.liferay.ide.studio.ui.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product com.liferay.ide.studio.ui.product
+
+!ENTRY org.eclipse.core.net 1 0 2018-10-23 14:28:04.645
+!MESSAGE System property http.proxyHost is not set but should be rb-proxy-ca.bosch.com.
+
+!ENTRY org.eclipse.core.net 1 0 2018-10-23 14:28:04.654
+!MESSAGE System property http.proxyPort is not set but should be 8080.
+
+!ENTRY org.eclipse.core.net 1 0 2018-10-23 14:28:04.664
+!MESSAGE System property https.proxyHost is not set but should be rb-proxy-ca.bosch.com.
+
+!ENTRY org.eclipse.core.net 1 0 2018-10-23 14:28:04.668
+!MESSAGE System property https.proxyPort is not set but should be 8080.
+
+!ENTRY org.eclipse.core.net 1 0 2018-10-23 14:28:04.680
+!MESSAGE System property https.proxyHost is not set but should be rb-proxy-ca.bosch.com.
+
+!ENTRY org.eclipse.core.net 1 0 2018-10-23 14:28:04.684
+!MESSAGE System property https.proxyPort is not set but should be 8080.
+!SESSION 2018-10-23 14:51:37.333 -----------------------------------------------
+eclipse.buildId=3.3.1.201809120710-ga2
+java.version=1.8.0_171
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product com.liferay.ide.studio.ui.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product com.liferay.ide.studio.ui.product
+
+!ENTRY org.eclipse.core.net 1 0 2018-10-23 14:52:05.405
+!MESSAGE System property http.proxyHost is not set but should be rb-proxy-ca.bosch.com.
+
+!ENTRY org.eclipse.core.net 1 0 2018-10-23 14:52:05.412
+!MESSAGE System property http.proxyPort is not set but should be 8080.
+
+!ENTRY org.eclipse.core.net 1 0 2018-10-23 14:52:05.418
+!MESSAGE System property https.proxyHost is not set but should be rb-proxy-ca.bosch.com.
+
+!ENTRY org.eclipse.core.net 1 0 2018-10-23 14:52:05.421
+!MESSAGE System property https.proxyPort is not set but should be 8080.
+
+!ENTRY org.eclipse.core.net 1 0 2018-10-23 14:52:05.434
+!MESSAGE System property https.proxyHost is not set but should be rb-proxy-ca.bosch.com.
+
+!ENTRY org.eclipse.core.net 1 0 2018-10-23 14:52:05.437
+!MESSAGE System property https.proxyPort is not set but should be 8080.

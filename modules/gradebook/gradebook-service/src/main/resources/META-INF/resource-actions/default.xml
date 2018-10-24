@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<!DOCTYPE resource-action-mapping PUBLIC "-//Liferay//DTD Resource Action Mapping 7.0.0//EN" "http://www.liferay.com/dtd/liferay-resource-action-mapping_7_0_0.dtd">
+<resource-action-mapping>
+	<model-resource>
+		<model-name>com.liferay.training.gradebook.model</model-name>
+		<portlet-ref>
+			<portlet-name>com_liferay_training_gradebook_portlet_GradebookPortlet</portlet-name>
+		</portlet-ref>
+		<permissions>
+			<supports>
+				<action-key>ADD_ASSIGNMENT</action-key>
+				<action-key>PERMISSIONS</action-key>
+			</supports>
+			<site-member-defaults />
+			<guest-defaults />
+			<guest-unsupported>
+				<action-key>ADD_ASSIGNMENT</action-key>
+				<action-key>PERMISSIONS</action-key>
+			</guest-unsupported>
+		</permissions>
+	</model-resource>
+	<model-resource>
+		<model-name>com.liferay.training.gradebook.model.Assignment</model-name>
+		<portlet-ref>
+			<portlet-name>com_liferay_training_gradebook_portlet_GradebookPortlet</portlet-name>
+		</portlet-ref>
+		<permissions>
+			<supports>
+				<action-key>DELETE</action-key>
+				<action-key>PERMISSIONS</action-key>
+				<action-key>UPDATE</action-key>
+				<action-key>VIEW</action-key>
+				<action-key>ADD_SUBMISSION</action-key>
+				<action-key>EDIT_SUBMISSION</action-key>
+				<action-key>DELETE_SUBMISSION</action-key>
+				<action-key>GRADE_SUBMISSION</action-key>
+				<action-key>VIEW_SUBMISSIONS</action-key>
+			</supports>
+			<site-member-defaults>
+				<action-key>VIEW</action-key>
+				<action-key>ADD_SUBMISSION</action-key>
+			</site-member-defaults>
+			<guest-defaults>
+				<action-key>VIEW</action-key>
+			</guest-defaults>
+			<guest-unsupported>
+				<action-key>DELETE</action-key>
+				<action-key>PERMISSIONS</action-key>			
+				<action-key>UPDATE</action-key>
+				<action-key>ADD_SUBMISSION</action-key>
+				<action-key>DELETE_SUBMISSION</action-key>
+				<action-key>EDIT_SUBMISSION</action-key>
+				<action-key>GRADE_SUBMISSION</action-key>
+				<action-key>VIEW_SUBMISSIONS</action-key>
+			</guest-unsupported>
+		</permissions>
+	</model-resource>
+</resource-action-mapping>

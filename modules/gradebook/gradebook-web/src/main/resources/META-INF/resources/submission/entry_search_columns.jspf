@@ -1,0 +1,51 @@
+<%-- Generate view submission URL. --%>
+
+<portlet:renderURL var="viewSubmissionURL">
+	<portlet:param name="mvcRenderCommandName" value="<%=MVCCommandNames.VIEW_SUBMISSION %>" />
+	<portlet:param name="redirect" value="${currentURL}" />
+	<portlet:param name="submissionId" value="${entry.submissionId}" />
+</portlet:renderURL>
+
+<%--Submission ID. --%>
+
+<liferay-ui:search-container-column-text 
+	href="${viewSubmissionURL}" 
+	name="id" 
+	value="${entry.submissionId}"
+/>
+
+<%-- Student. --%>
+
+<liferay-ui:search-container-column-user 
+	href="${viewSubmissionURL}" 
+	name="student" 
+	userId="${entry.studentId}" 
+/>
+
+<%-- Submit date. --%>
+
+<liferay-ui:search-container-column-date 
+	name="submit-date" 
+	property="submitDate"
+/>
+
+<%-- Grade --%>
+
+<liferay-ui:search-container-column-text name="grade">
+	<c:choose>
+		<c:when test="${entry.grade lt 0}">
+			<liferay-ui:message key="submission-not-graded" />
+		</c:when>
+		<c:otherwise>
+			<fmt:formatNumber value="${entry.grade}" type="number" />
+		</c:otherwise>
+	</c:choose>
+</liferay-ui:search-container-column-text>
+
+<%-- Actions menu. --%>
+
+<liferay-ui:search-container-column-jsp 
+	name="actions"
+	path="/submission/entry_actions.jsp" 
+/>
+	

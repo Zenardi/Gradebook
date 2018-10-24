@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<root>
+	<template>
+		<template-key>gradebook-example-ftl</template-key>
+		<name>gradebook-example-template</name>
+		<description>This is an Application Display Template example for the Gradebook exercise. You can find this template in the gradebook-web/src/main/resources folder.</description>
+		<language>ftl</language>
+		<script-file>com/liferay/training/gradebook/portlet/template/portlet_display_template.ftl</script-file>
+		<cacheable>false</cacheable>
+	</template>
+</root>

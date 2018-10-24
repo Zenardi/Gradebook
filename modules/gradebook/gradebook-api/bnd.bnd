@@ -1,0 +1,12 @@
+Bundle-Name: Gradebook API
+Bundle-SymbolicName: com.liferay.training.gradebook.api
+Bundle-Version: 1.0.0
+Export-Package: \
+	com.liferay.training.gradebook.exception,\
+	com.liferay.training.gradebook.model,\
+	com.liferay.training.gradebook.service,\
+	com.liferay.training.gradebook.service.persistence,\
+	com.liferay.training.gradebook.service.permission,\
+	com.liferay.training.gradebook.configuration
+	
+-includeresource: META-INF/service.xml=../gradebook-service/service.xml
