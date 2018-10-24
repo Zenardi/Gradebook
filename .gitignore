@@ -13,8 +13,8 @@
 **/.web_bundle_build
 .gradle
 .idea
-/bundles
-/solutions
+LiferayTraining/bundles
+LiferayTraining/solutions
 /gradle-*.properties
 /plugins-sdk/**/classes
 /plugins-sdk/**/ivy.xml.MD5
@@ -24,3 +24,4 @@
 /plugins-sdk/dist
 /plugins-sdk/lib
 test-results
+/.metadata/
