@@ -3958,3 +3958,7 @@ Required by:
 	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration_Decorated.getResolvedConfiguration(Unknown Source)
 	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$ConfigurationFileCollection.getFiles(DefaultConfiguration.java:682)
 	... 85 more
+
+!ENTRY com.liferay.ide.server.core 4 0 2018-10-25 16:06:56.614
+!MESSAGE Problem with deploying bundle: org.osgi.framework.BundleException: Could not resolve module: user.post.update.model.listener [964]
+  Unresolved requirement: Import-Package: com.liferay.portal.kernel.model; version="[1.0.0,2.0.0)"
